@@ -30,10 +30,9 @@ bool isConsonant(char c){
 
 namespace NameGen{
     string getName(){
-        int length=3+rand()%10;
         string name;
         name.push_back(randAlpha());
-        for(int i=1; i<length; i++){
+        for(int i=1; i<3 || rand()%10<7; i++){
             char c = '?';
             if(isConsonant(name[i-1])){
                 c=randVocal();
