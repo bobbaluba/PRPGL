@@ -1,4 +1,4 @@
-#include "namegen.h"
+#include "PRPGL/namegen.h"
 
 #include <cstdlib>
 
