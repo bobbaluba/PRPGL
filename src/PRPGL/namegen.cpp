@@ -1,7 +1,7 @@
-#include "namegen.h"
+#include <PRPGL/namegen.h>
 
 #include <cstdlib>
-
+#include <string>
 
 using namespace std;
 
